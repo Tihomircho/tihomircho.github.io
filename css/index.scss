@@ -1,0 +1,514 @@
+@font-face {
+  font-family: 'Barkentina 1';
+  src: url('../fonts/Barkentina 1.otf');
+
+  src: local('Barkentina 1'), url("../fonts/Barkentina 1.otf") format('truetype');
+}
+
+* {}
+
+body {
+  font-family: 'Barkentina 1', sans-serif;
+
+  div.pswp__caption__center {
+    display: none;
+  }
+
+  header.s-header {
+    .header-logo {
+      .site-logo {
+        img {
+          width: 15rem;
+          height: 22rem;
+          margin-top: 15rem;
+        }
+      }
+    }
+
+    /*end header-logo*/
+    nav.header-nav {
+      a.header-nav__close {}
+
+      h3 {
+        font-family: 'Barkentina 1', sans-serif;
+        color: #f3a3f3;
+        display: none;
+      }
+
+      div.header-nav__content {
+        ul.header-nav__list {
+          li {
+            font-family: 'Barkentina 1', sans-serif;
+
+            a.smoothscroll {
+              &:hover::before {
+                color: #b3e162;
+              }
+            }
+          }
+        }
+
+        p {
+          display: none;
+        }
+
+        ul.header-nav__social {
+          li {}
+        }
+      }
+
+      /*end header-nav__content*/
+    }
+
+    /* end header-nav*/
+    a.header-menu-toggle {
+      span.header-menu-icon {}
+    }
+  }
+
+  /* end s-header*/
+  /* Home*/
+  section#home {
+    div.grid-overlay {}
+
+    div.home-content {
+      div.home-content__main {
+        h1 {
+          font-size: 4.5rem;
+          font-family: 'Barkentina 1', sans-serif;
+        }
+
+        h3 {}
+
+        div.home-content__video {
+          a.video-link {
+            span.video-icon {
+              background-color: rgb(179, 225, 98);
+
+              &:hover {
+                background-color: rgb(102, 50, 0);
+              }
+            }
+          }
+        }
+
+        div.home-content__button {
+          a.smoothscroll {
+            &:first-child {
+              background: rgb(167, 130, 80);
+              font-family: 'Barkentina 1', sans-serif;
+              border: unset;
+
+              &:hover {
+                background: rgb(153, 0, 0);
+              }
+            }
+
+            &:last-child {
+              background: rgb(153, 51, 0);
+              font-family: 'Barkentina 1', sans-serif;
+              border: unset;
+
+              &:hover {
+                background: rgb(102, 50, 0);
+              }
+            }
+          }
+        }
+      }
+
+      /* edn home-content__main*/
+      div.home-content__scroll {
+        .scroll-link {
+          &:hover {
+            color: #b3e162;
+          }
+        }
+      }
+
+      ul.home-social {
+        li {}
+      }
+
+      /* end home-social*/
+    }
+  }
+
+  /* end s-home*/
+  /* about*/
+  section#about {
+    background-color: rgb(255, 102, 51);
+    font-family: 'Barkentina\ 1', sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: justify;
+
+    div.section-header {
+      div.col-full {
+        h3 {
+          color: rgb(204, 255, 153);
+          font-family: 'Barkentina 1', sans-serif;
+          font-size: 3rem;
+        }
+        ul{
+          li{
+            a{
+              .fa-facebook:before, .fa-twitter:before, 
+              .fa-instagram:before, .fa-youtube:before{
+                color: wheat;
+            }
+          }
+        }
+      }
+        h1 {
+          color: rgb(204, 255, 153);
+          font-family: 'Barkentina 1', sans-serif;
+        }
+      }
+    }
+
+    /* end section-header*/
+    div.bit-narrow {
+      div.col-full {}
+
+      p.lead {
+        color: white;
+
+        strong {
+          font-style: italic;
+        }
+      }
+
+      img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+      }
+
+      div.ul-li {
+        display: flex;
+        justify-content: space-between;
+
+        ul {
+          font-weight: bold;
+          list-style: none;
+
+          li {
+            font-weight: 100;
+          }
+        }
+      }
+    }
+
+    /* end about-desc*/
+    div.bit-narrow {
+
+      div.about-process {
+        display: flex;
+
+        div.col-block {
+          div.item-process__text {
+            h4.item-title {
+              &::before {
+                display: none;
+              }
+            }
+
+            img.img-left {
+              width: 50%;
+            }
+
+            img.img-center {
+              width: 100%;
+            }
+
+            img.img-right {
+              width: 70%;
+            }
+          }
+        }
+      }
+
+      /* end process*/
+    }
+
+    /* end row*/
+  }
+
+  /* end s-about*/
+  /* services*/
+
+  section#services { 
+    padding-top: 5rem;
+   text-align: justify;
+    background-color: rgb(153, 51, 0);
+    h2{
+      text-align: center;
+    }
+   
+            ul{
+      li{
+        a{
+          .fa-facebook:before, .fa-twitter:before, 
+          .fa-instagram:before, .fa-youtube:before{
+            color: wheat;
+        }
+      }
+    }}
+
+    div.section-header {
+      div.col-full {
+        h3.subhead {
+          font-size: 2.7rem;
+          font-family: "Barkentina 1", sans-serif;
+          color: white;
+        }
+      
+        h4.display-1 {
+          font-family: 'Barkentina\ 1', sans-serif;
+          font-size: 2.2rem;
+          font-weight: normal;
+        }
+
+        img {
+          margin: 0 auto;
+          display: block;
+          margin-bottom: 5rem;
+        }
+        img.logo{
+          width: 40%;
+          height: 40%;
+        }
+      }
+    }
+
+    /*end section-header*/
+    div.bit-narrow {
+      div.col-block {
+        div.item-service__icon {
+          .icon-star {
+            color: #ccff99;
+          }
+
+          i {
+            color: #ccff99;
+          }
+        }
+
+        div.item-service__text {
+
+          h3.item-title {}
+
+          img {}
+
+          p {
+            color: white;
+            text-align: justify;
+          }
+        }
+      }
+    }
+  }
+
+  section#works {
+
+    div.row {
+      div.col-full {
+        h3.subhead {
+          font-family: "Barkentina 1", sans-serif;
+          color: #b3e162;
+        }
+
+        h1.display-1 {
+          font-family: "Barkentina 1", sans-serif;
+        }
+
+      }
+    }
+
+    /*end section-header*/
+    div.masonry-wrap {
+      div.masonry {
+
+        div.masonry__brick {
+
+          div.item-folio {
+            div.item-folio__text {
+              display: none;
+
+              h3.item-folio__title {
+                font-family: "Barkentina 1", sans-serif;
+                display: none;
+              }
+
+              p.item-folio__cat {
+                font-family: "Barkentina 1", sans-serif;
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    /*end masonry-wrap*/
+
+  }
+
+  /*end s-works*/
+  /*clients*/
+  section#clients {
+    display: none;
+  }
+
+  section#contact {
+    div.contact-main {
+      div.col-full {
+        p.contact-email {
+          a {
+            font-size: 7rem;
+          }
+        }
+      }
+
+
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    section#contact {
+      div.contact-main {
+        div.col-full {
+          p.contact-email a {
+            font-size: 3.8rem;
+          }
+        }
+
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    section#home {
+      div.home-content {
+        padding-top: 23rem;
+      }
+    }
+
+    section#about {
+      div.bit-narrow {
+        img {
+          width: 100%;
+        }
+
+        div.ul-li {
+          display: flex;
+          justify-content: space-between;
+          flex-direction: column;
+
+          ul {
+            font-weight: bold;
+            list-style: none;
+
+            li {
+              font-weight: 100;
+            }
+          }
+        }
+      }
+
+  
+      /* end about-desc*/
+      div.bit-narrow {
+
+        div.about-process {
+          display: flex;
+          flex-direction: column;
+
+          div.col-block {
+            div.item-process__text {
+              h4.item-title {
+                text-align: center;
+                padding-left: 0;
+                padding-right: 0;
+
+                &::before {
+                  display: none;
+                }
+              }
+
+              img.img-left {
+                width: 30%;
+              }
+
+              img.img-center {
+                width: 80%;
+              }
+
+              img.img-right {
+                width: 40%;
+              }
+            }
+          }
+        }
+
+        /* end process*/
+      }
+
+      /* end row*/
+    }
+
+    section#contact {
+      div.contact-main {
+        div.col-full {
+          p.contact-email a {
+            font-size: 3.8rem;
+          }
+        }
+
+
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    section#contact {
+      div.contact-main {
+        div.col-full {
+          p.contact-email a {
+            font-size: 2.3rem;
+          }
+        }
+
+
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+
+    h3.subhead{
+      font-size: 4rem;
+    }
+    section#contact {
+      div.contact-main {
+        div.col-full {
+          p.contact-email a {
+            font-size: 1.9rem;
+          }
+        }
+
+
+      }
+    }
+  }
+}

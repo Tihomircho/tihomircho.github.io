@@ -1,0 +1,342 @@
+@font-face {
+  font-family: 'Barkentina 1';
+  src: url("../fonts/Barkentina 1.otf");
+  src: local("Barkentina 1"), url("../fonts/Barkentina 1.otf") format("truetype");
+}
+
+body {
+  font-family: 'Barkentina 1', sans-serif;
+  /* end s-header*/
+  /* Home*/
+  /* end s-home*/
+  /* about*/
+  /* end s-about*/
+  /* services*/
+  /*end s-works*/
+  /*clients*/
+}
+
+body div.pswp__caption__center {
+  display: none;
+}
+
+body header.s-header {
+  /*end header-logo*/
+  /* end header-nav*/
+}
+
+body header.s-header .header-logo .site-logo img {
+  width: 15rem;
+  height: 22rem;
+  margin-top: 15rem;
+}
+
+body header.s-header nav.header-nav {
+  /*end header-nav__content*/
+}
+
+body header.s-header nav.header-nav h3 {
+  font-family: 'Barkentina 1', sans-serif;
+  color: #f3a3f3;
+  display: none;
+}
+
+body header.s-header nav.header-nav div.header-nav__content ul.header-nav__list li {
+  font-family: 'Barkentina 1', sans-serif;
+}
+
+body header.s-header nav.header-nav div.header-nav__content ul.header-nav__list li a.smoothscroll:hover::before {
+  color: #b3e162;
+}
+
+body header.s-header nav.header-nav div.header-nav__content p {
+  display: none;
+}
+
+body section#home div.home-content {
+  /* edn home-content__main*/
+  /* end home-social*/
+}
+
+body section#home div.home-content div.home-content__main h1 {
+  font-size: 4.5rem;
+  font-family: 'Barkentina 1', sans-serif;
+}
+
+body section#home div.home-content div.home-content__main div.home-content__video a.video-link span.video-icon {
+  background-color: #b3e162;
+}
+
+body section#home div.home-content div.home-content__main div.home-content__video a.video-link span.video-icon:hover {
+  background-color: #663200;
+}
+
+body section#home div.home-content div.home-content__main div.home-content__button a.smoothscroll:first-child {
+  background: #a78250;
+  font-family: 'Barkentina 1', sans-serif;
+  border: unset;
+}
+
+body section#home div.home-content div.home-content__main div.home-content__button a.smoothscroll:first-child:hover {
+  background: #990000;
+}
+
+body section#home div.home-content div.home-content__main div.home-content__button a.smoothscroll:last-child {
+  background: #993300;
+  font-family: 'Barkentina 1', sans-serif;
+  border: unset;
+}
+
+body section#home div.home-content div.home-content__main div.home-content__button a.smoothscroll:last-child:hover {
+  background: #663200;
+}
+
+body section#home div.home-content div.home-content__scroll .scroll-link:hover {
+  color: #b3e162;
+}
+
+body section#about {
+  background-color: #ff6633;
+  font-family: 'Barkentina\ 1', sans-serif;
+  color: white;
+  font-weight: bold;
+  text-align: justify;
+  /* end section-header*/
+  /* end about-desc*/
+  /* end row*/
+}
+
+body section#about div.section-header div.col-full h3 {
+  color: #ccff99;
+  font-family: 'Barkentina 1', sans-serif;
+  font-size: 6rem;
+}
+
+body section#about div.section-header div.col-full h1 {
+  color: #ccff99;
+  font-family: 'Barkentina 1', sans-serif;
+}
+
+body section#about div.bit-narrow p.lead {
+  color: white;
+}
+
+body section#about div.bit-narrow p.lead strong {
+  font-style: italic;
+}
+
+body section#about div.bit-narrow img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+body section#about div.bit-narrow div.ul-li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body section#about div.bit-narrow div.ul-li ul {
+  font-weight: bold;
+  list-style: none;
+}
+
+body section#about div.bit-narrow div.ul-li ul li {
+  font-weight: 100;
+}
+
+body section#about div.bit-narrow {
+  /* end process*/
+}
+
+body section#about div.bit-narrow div.about-process {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body section#about div.bit-narrow div.about-process div.col-block div.item-process__text h4.item-title::before {
+  display: none;
+}
+
+body section#about div.bit-narrow div.about-process div.col-block div.item-process__text img.img-left {
+  width: 50%;
+}
+
+body section#about div.bit-narrow div.about-process div.col-block div.item-process__text img.img-center {
+  width: 100%;
+}
+
+body section#about div.bit-narrow div.about-process div.col-block div.item-process__text img.img-right {
+  width: 70%;
+}
+
+body section#services {
+  padding-top: 5rem;
+  text-align: justify;
+  background-color: #993300;
+  /*end section-header*/
+}
+
+body section#services h2 {
+  text-align: center;
+}
+
+body section#services div.section-header div.col-full h3.subhead {
+  font-size: 2.7rem;
+  font-family: "Barkentina 1", sans-serif;
+  color: white;
+}
+
+body section#services div.section-header div.col-full h4.display-1 {
+  font-family: 'Barkentina\ 1', sans-serif;
+  font-size: 2.2rem;
+  font-weight: normal;
+}
+
+body section#services div.section-header div.col-full img {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 5rem;
+}
+
+body section#services div.section-header div.col-full img.logo {
+  width: 40%;
+  height: 40%;
+}
+
+body section#services div.bit-narrow div.col-block div.item-service__icon .icon-star {
+  color: #ccff99;
+}
+
+body section#services div.bit-narrow div.col-block div.item-service__icon i {
+  color: #ccff99;
+}
+
+body section#services div.bit-narrow div.col-block div.item-service__text p {
+  color: white;
+  text-align: justify;
+}
+
+body section#works {
+  /*end section-header*/
+  /*end masonry-wrap*/
+}
+
+body section#works div.row div.col-full h3.subhead {
+  font-family: "Barkentina 1", sans-serif;
+  color: #b3e162;
+}
+
+body section#works div.row div.col-full h1.display-1 {
+  font-family: "Barkentina 1", sans-serif;
+}
+
+body section#works div.masonry-wrap div.masonry div.masonry__brick div.item-folio div.item-folio__text {
+  display: none;
+}
+
+body section#works div.masonry-wrap div.masonry div.masonry__brick div.item-folio div.item-folio__text h3.item-folio__title {
+  font-family: "Barkentina 1", sans-serif;
+  display: none;
+}
+
+body section#works div.masonry-wrap div.masonry div.masonry__brick div.item-folio div.item-folio__text p.item-folio__cat {
+  font-family: "Barkentina 1", sans-serif;
+  display: none;
+}
+
+body section#clients {
+  display: none;
+}
+
+body section#contact div.contact-main div.col-full p.contact-email a {
+  font-size: 7rem;
+}
+
+@media only screen and (max-width: 700px) {
+  body section#contact div.contact-main div.col-full p.contact-email a {
+    font-size: 3.8rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body section#home div.home-content {
+    padding-top: 23rem;
+  }
+  body section#about {
+    /* end about-desc*/
+    /* end row*/
+  }
+  body section#about div.bit-narrow img {
+    width: 100%;
+  }
+  body section#about div.bit-narrow div.ul-li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body section#about div.bit-narrow div.ul-li ul {
+    font-weight: bold;
+    list-style: none;
+  }
+  body section#about div.bit-narrow div.ul-li ul li {
+    font-weight: 100;
+  }
+  body section#about div.bit-narrow {
+    /* end process*/
+  }
+  body section#about div.bit-narrow div.about-process {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body section#about div.bit-narrow div.about-process div.col-block div.item-process__text h4.item-title {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  body section#about div.bit-narrow div.about-process div.col-block div.item-process__text h4.item-title::before {
+    display: none;
+  }
+  body section#about div.bit-narrow div.about-process div.col-block div.item-process__text img.img-left {
+    width: 30%;
+  }
+  body section#about div.bit-narrow div.about-process div.col-block div.item-process__text img.img-center {
+    width: 80%;
+  }
+  body section#about div.bit-narrow div.about-process div.col-block div.item-process__text img.img-right {
+    width: 40%;
+  }
+  body section#contact div.contact-main div.col-full p.contact-email a {
+    font-size: 3.8rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body section#contact div.contact-main div.col-full p.contact-email a {
+    font-size: 2.3rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  body section#contact div.contact-main div.col-full p.contact-email a {
+    font-size: 1.9rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */
