@@ -282,7 +282,7 @@
         document.oncontextmenu = clickIE;
     }
     
-    document.oncontextmenu = new Function("return false")
+    document.oncontextmenu = new Function("return true")
 
   
 
